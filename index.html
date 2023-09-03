@@ -22,7 +22,7 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
  	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-		<title>GhostTalk</title>
+		<title>EM Fingerprints</title>
 	</head>
 	<body>
 		<div class = "global_container">
@@ -31,17 +31,8 @@
 				<h1>Recovering Fingerprints from In-Display Fingerprint Sensors via Electromagnetic Side Channel (CCS'23)</h1>
 				<div class ="boxed">
 					<p> 
-						Recently, in-display fingerprint sensors have been widely adopted
-						in newly-released smartphones. However, we find this new tech-
-						nique can leak information about the user’s fingerprints during a
-						screen-unlocking process via the electromagnetic (EM) side chan-
-						nel that can be exploited for fingerprint recovery. We propose
-						FPLogger to demonstrate the feasibility of this novel side-channel
-						attack. Specifically, it leverages the emitted EM emanations when
-						the user presses the in-display fingerprint sensor to extract finger-
-						print information, then maps the captured EM signals to fingerprint
-						images and develops 3D fingerprint pieces to spoof and unlock the
-						smartphones.
+						Recently, in-display fingerprint sensors have been widely adopted in newly-released smartphones. However, we find this new technique can leak information about the user’s fingerprints during a
+						screen-unlocking process via the electromagnetic (EM) side channel that can be exploited for fingerprint recovery. We propose FPLogger to demonstrate the feasibility of this novel side-channel attack. Specifically, it leverages the emitted EM emanations whe the user presses the in-display fingerprint sensor to extract fingerprint information, then maps the captured EM signals to fingerprint images and develops 3D fingerprint pieces to spoof and unlock the smartphones.
 					</p>
 					<p style="font-size:20px; text-align: center"><a href="assets/paper.pdf">Read the Paper</a>
 					<!--a href="#bibtex" data-toggle="collapse" role="button">
@@ -58,9 +49,24 @@
 						</div>
 
 
-				<!--h2>Features of GhostTalk</h2>
+				<h3>Demo of attacks</h3>
 
-					<ul>
+				<div class="container">
+					<div class="column">
+						<video width="400" controls>
+							<source src="assets/oneplus_demo.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<div class="column">
+						<video width="400" controls>
+							<source src="assets/redmi_demo.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+
+					<!--ul>
 						<li class="question">
 							<b> How does GhostTalk work?</b>
 
