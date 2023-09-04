@@ -250,3 +250,8 @@ th, td {
   padding: 8px;
   text-align: left;
 }
+
+.share-icon {
+  color: #800080;
+  cursor: pointer;
+}
