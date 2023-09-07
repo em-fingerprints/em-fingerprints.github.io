@@ -169,6 +169,52 @@ li {
 
 }
 
+.news li::before {
+		content: "\2B50\FE0F";
+		color: #f05023;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1.3em;
+
+			font-size: 1.5em;
+
+		 	padding-right: 1.1225em;
+		margin-top: 13px;
+
+	 		position: relative;
+			top: 0.2em;
+
+}
+
+.figure {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+  height: 30%;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-column {
+  flex-basis: 50%;
+}
+
+.custom-column p {
+  margin-right: 10px; /* 调整文字和图片之间的间距 */
+}
+
+.custom-column img {
+  float: right;
+}
 
 p, ul {
 	text-align: justify;

@@ -36,21 +36,32 @@
 						Recently, in-display fingerprint sensors have been widely adopted in newly-released smartphones. However, we find this new technique can leak information about the user’s fingerprints during a
 						screen-unlocking process via the electromagnetic (EM) side channel that can be exploited for fingerprint recovery. We propose FPLogger to demonstrate the feasibility of this novel side-channel attack. Specifically, it leverages the emitted EM emanations whe the user presses the in-display fingerprint sensor to extract fingerprint information, then maps the captured EM signals to fingerprint images and develops 3D fingerprint pieces to spoof and unlock the smartphones.
 					</p>
-					<p style="font-size:20px; text-align: center" class="myButton"><a href="https://www.kaggle.com/datasets/ruizgara/socofing">Read the Paper</a>
-					<!--a href="#bibtex" data-toggle="collapse" role="button">
-					Cite <i class="fa fa-quote-right" aria-hidden="true"></i></a-->
+					<p style="font-size:20px; text-align: center"><a href="#paper" data-toggle="collapse" role="button" class="myButton">Paper</a>
+					<a href="#bibtex" data-toggle="collapse" role="button" class="myButton">Cite <i class="fa fa-quote-right" aria-hidden="true"></i></a>
+					<div id="paper" style="margin-top: 1.5em;" class="collapse" align="left">
+					<pre style="white-space: pre">
+					to be updated...
+					</pre></div>
 				<div id="bibtex" style="margin-top: 1.5em;" class="collapse" align="left">
 					<pre style="white-space: pre">
-					@inproceedings{wang2022ghosttalk,
-					    author = {Wang, Yuanda and Guo, Hanqing and Yan, Qiben},
-					    title = {GhostTalk: Interactive Attack on Smartphone Voice System Through Power Line},
-					    booktitle={Network and Distributed Systems Security (NDSS) Symposium},
-					    year = {2022},
-					}
-					</pre></p></div>
+					to be updated...
+					</pre></div></p>
 						</div>
 
+				<h3>Recent News</h3>
 
+				<ul>
+						<li class="question">
+					<p class="answer">
+						<ul>
+								<li class="answer">&nbsp; <strong>[Aug. 2023] Our paper has been accpeted by ACM CCS 2023!</strong></li>
+								<li class="answer">&nbsp; <strong>[May 2023] Our paper has been submitted to ACM CCS 2023 (Round 2).</strong></li>
+						</ul>
+					</p>
+				</li>
+				</ul>
+
+				<br>
 				<h3>Demo of Attacks</h3>
 
 				<div class="container">
@@ -71,6 +82,19 @@
 				</div>
 
 				<br><br>
+				<h3>Ethical Consideration</h3>
+				<div class="section">
+					<div class="boxed">
+				    <p>
+				      We take ethical considerations seriously. Since fingerprints are very sensitive biometric information, illegally collecting from human participants may cause severe consequences and violate laws. Therefore, as a proof-of-concept work, we construct 3D fingerprints from real fingerprint images through 3D printing technique. <img src="assets/3d_fingerprints.png" width="50" height="50">
+				      All fingerprint pieces are built via a 3D printer using fingerprint images from a
+				      public dataset for scientific research (SOCOFing), and these pieces are only used for fingerprint registration and unlocking the smartphone to collect EM emanations for empirical evaluations.
+				    </p>
+				  </div>
+				</div>
+
+
+				<br>
 				<h3>Public Fingerprint Dataset <a href = "https://www.kaggle.com/datasets/ruizgara/socofing" class="myButton">SOCOFing</a></h3>
 					<div class="section">
 					<div class="boxed">
@@ -80,7 +104,7 @@
 					</div>
 				</div>
 
-				<br><br>
+				<br>
 				<h3>Appendix C - Comparison Table</h3>
 					<div class="section">
 						<div class="boxed">
