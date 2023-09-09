@@ -23,6 +23,7 @@
  	 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
  	 	<!-- Add this link in the <head> section of your HTML document -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
 
 		<title>EM Fingerprints</title>
 	</head>
@@ -102,6 +103,177 @@
 						</p>
 					</div>
 				</div>
+
+				<h3>Appendix A - Notations in ASE Feature Extraction</h3>
+					<div class="section">
+						<div class="boxed">
+							<table>
+							  <caption></caption>
+							  <thead>
+							    <tr>
+							      <th>Notation</th>
+							      <th>Description</th>
+							      <th>Setting</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <td><i>f</i></td>
+							      <td>Sampling frequency</td>
+							      <td>20<i>kHz</i></td>
+							    </tr>
+							    <tr>
+							      <td><i>rf</i></td>
+							      <td>Resolution of target fingerprint images </td>
+							      <td>64<i>dpi</i></td>
+							    </tr>
+							    <tr>
+							      <td><i>i, j</i></td>
+							      <td>Starting and ending indices of a signal frame</td>
+							      <td>0, 1, 2, ...</td>
+							    </tr>
+							    <tr>
+							      <td><i>e i,j(t)</i></td>
+							      <td>Envelope data between <i>i</i> and <i>j</i> at time <i>t</i> </td>
+							      <td><i>i+0.001f=j</i></td>
+							    </tr>
+							    <tr>
+							      <td><i>eL i, j(t)</i> and <i>eU i, j(t)</i></td>
+							      <td>Lower bound and upper bound of <i>e i, j(t)</i></td>
+							      <td><i>i+0.001f=j</i></td>
+							    </tr>
+							    <tr>
+							      <td><i>eF i, j(t)</i></td>
+							      <td>Extracted ase feature from <i>e i, j(t)</i></td>
+							      <td><i>i+0.001f=j</i></td>
+							    </tr>
+							    <tr>
+							      <td>nF and lF</td>
+							      <td>Segments and length of the moving binning window</td>
+							      <td>-, 0.002</td>
+							    </tr>
+							  </tbody>
+							</table>
+						</div>
+					</div>
+
+				<h3>Appendix B - Smartphones with In-Display Fingerprint Sensors</h3>
+					<div class="section">
+						<div class="boxed">
+							<table>
+							  <caption></caption>
+							  <thead>
+							    <tr>
+							      <th>Commodity Smartphone</th>
+							      <th>Optical-based</th>
+							      <th>Ultrasonic-based</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <td>OnePlus 10 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>OPPO A96</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Xiaomi Redmi K20 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Huawei P30 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>OnePlus Nord 2T</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Realme GT 2 Pro 5G</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>OPPO Reno 8 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Google Pixel 6a</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Vivo V25 Pro 5G</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Moto G72</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Honor Magic 2</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Meizu 16 Plus</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Huawei Mate 20 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Vivo V11 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Lenovo Z5 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>OPPO R17 Neo</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Google Pixel 7 Pro</td>
+							      <td>&#x2714;</td>
+							      <td>&#x2718;</td>
+							    </tr>
+							    <tr>
+							      <td>Samsung Galaxy S10</td>
+							      <td>&#x2718;</td>
+							      <td>&#x2714;</td>
+							    </tr>
+							    <tr>
+							      <td>Samsung Galaxy S22</td>
+							      <td>&#x2718;</td>
+							      <td>&#x2714;</td>
+							    </tr>
+							    <tr>
+							      <td>iQOO 9 Pro</td>
+							      <td>&#x2718;</td>
+							      <td>&#x2714;</td>
+							    </tr>
+							  </tbody>
+							</table>
+						</div>
+					</div>
 
 				<h3>Appendix C - Comparison Table</h3>
 					<div class="section">
